@@ -2,7 +2,7 @@ Package: montyhall
 Title: Simulates Outcomes of the Monty Hall Problem
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Nick", "McMullen", , "nmcmulle@asu.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Allows a user to simulate outcomes of the Monty Hall problem and store results in a data table to see which strategy is most effective.
 Depends:
