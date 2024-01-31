@@ -72,8 +72,8 @@ select_door <- function( )
 #' initial door selection - see select_door()
 #' @return Generates a numeric value between 1 and 3
 #' @examples
-#' open_goat_door(game = ["goat", "car", "goat"], a.pick = 1)
-#' open_goat_door(game = ["goat", "car", "goat"], a.pick = 2)
+#' open_goat_door(game = c("goat", "car", "goat"), a.pick = 1)
+#' open_goat_door(game = c("goat", "car", "goat"), a.pick = 2)
 #' @export
 open_goat_door <- function( game, a.pick )
 {
@@ -147,9 +147,9 @@ change_door <- function( stay=T, opened.door, a.pick )
 #' contestant's final door choice
 #' @return character object "WIN" or "LOSE"
 #' @examples
-#' determine_winner(final.pick = 1, game = ["goat", "car", "goat"])
-#' determine_winner(final.pick = 2, game = ["goat", "car", "goat"])
-#' determine_winner(final.pick = 3, game = ["goat", "car", "goat"])
+#' determine_winner(final.pick = 1, game = c("goat", "car", "goat")
+#' determine_winner(final.pick = 2, game = c("goat", "car", "goat")
+#' determine_winner(final.pick = 3, game = c("goat", "car", "goat")
 #' @export
 determine_winner <- function( final.pick, game )
 {
