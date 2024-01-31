@@ -26,8 +26,9 @@ the two goat door numbers at random. If the contestant has selected a goat
 door, the function will return the only remaining goat door number.
 }
 \examples{
+
 open_goat_door(game = ["goat", "car", "goat"], a.pick = 1)
-[1] 3
 open_goat_door(game = ["goat", "car", "goat"], a.pick = 2)
-[1] 1
+open_goat_door(game = ["goat", "car", "goat"], a.pick = 3)
+
 }
