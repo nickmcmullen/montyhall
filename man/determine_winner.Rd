@@ -18,15 +18,19 @@ character object "WIN" or "LOSE"
 }
 \description{
 This function compares the contestant's final selection against the original
-game structure and returns the final game result
+game structure and returns the final game result. 
 }
 \details{
 If the contestant's final selection is the door number with the car behind
 it, the function will return "WIN", if not the function will return "LOSE"
 }
 \examples{
+
 determine_winner(final.pick = 1, game = ["goat", "car", "goat"])
-[1] "LOSE"
 determine_winner(final.pick = 2, game = ["goat", "car", "goat"])
-[1] "WIN"
+determine_winner(final.pick = 3, game = ["goat", "car", "goat"])
+determine_winner(final.pick = 1, game = ["car", "goat", "goat"])
+determine_winner(final.pick = 2, game = ["car", "goat", "goat"])
+determine_winner(final.pick = 3, game = ["car", "goat", "goat"])
+
 }
