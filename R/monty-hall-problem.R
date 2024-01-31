@@ -24,7 +24,7 @@
 #'
 #' @examples
 #'   create_game()
-#'   [1] ["goat", "goat", "car"]
+#'   
 #'
 #' @export
 create_game <- function()
@@ -46,8 +46,9 @@ create_game <- function()
 #' door selected
 #' @param ... no arguments are used by this function
 #' @return The function returns a numeric value between 1 and 3
-#' @examples select_door()
-#' [1] 2
+#' @examples 
+#'     select_door()
+#' 
 #' @export
 select_door <- function( )
 {
@@ -74,9 +75,9 @@ select_door <- function( )
 #' @return Generates a numeric value between 1 and 3
 #' @examples 
 #' open_goat_door(game = ["goat", "car", "goat"], a.pick = 1)
-#' [1] 3
+#' 
 #' open_goat_door(game = ["goat", "car", "goat"], a.pick = 2)
-#' [1] 1
+#' 
 #' @export
 open_goat_door <- function( game, a.pick )
 {
@@ -118,9 +119,7 @@ open_goat_door <- function( game, a.pick )
 #' @return Generates a numeric value between 1 and 3
 #' @examples
 #' change_door(stay=T, opened.door = 1, a.pick = 2) 
-#' [1] 2
 #' change_door(stay = F, opened.door = 1, a.pick = 2)
-#' [1] 3
 #' @export
 change_door <- function( stay=T, opened.door, a.pick )
 {
@@ -153,9 +152,7 @@ change_door <- function( stay=T, opened.door, a.pick )
 #' @return character object "WIN" or "LOSE"
 #' @examples
 #' determine_winner(final.pick = 1, game = ["goat", "car", "goat"])
-#' [1] "LOSE"
 #' determine_winner(final.pick = 2, game = ["goat", "car", "goat"])
-#' [1] "WIN"
 #' @export
 determine_winner <- function( final.pick, game )
 {
