@@ -66,9 +66,9 @@ select_door <- function( )
 #' If the contestant has selected the car door, the function will return one of
 #' the two goat door numbers at random. If the contestant has selected a goat
 #' door, the function will return the only remaining goat door number.
-#' @param game = a vector of length three representing the game structure - see
+#' @param game  a vector of length three representing the game structure - see
 #' create_game()
-#' @param a.select = a numeric value between 1 and 3 representing the contestant's
+#' @param a.select  a numeric value between 1 and 3 representing the contestant's
 #' initial door selection - see select_door()
 #' @return Generates a numeric value between 1 and 3
 #' @examples
@@ -106,11 +106,11 @@ open_goat_door <- function( game, a.pick )
 #' number of the remaining unopened door. If the contestant elects to keep
 #' their selection, the function will return the numeric value associated
 #' with the original selection
-#' @param stay = T/F logical, indicates whether the contestant will keep their
+#' @param stay  T/F logical, indicates whether the contestant will keep their
 #' original selection
-#' @param opened.door = numeric value between 1 and 3 representing the door opened
+#' @param opened.door  numeric value between 1 and 3 representing the door opened
 #' by the host (see select_door())
-#' @param a.pick = numeric value between 1 and 3 representing the door originally
+#' @param a.pick numeric value between 1 and 3 representing the door originally
 #' selected by the contestant (see open_goat_door())
 #' @return Generates a numeric value between 1 and 3
 #' @examples
@@ -143,8 +143,10 @@ change_door <- function( stay=T, opened.door, a.pick )
 #' @details
 #' If the contestant's final selection is the door number with the car behind
 #' it, the function will return "WIN", if not the function will return "LOSE"
-#' @param final.pick = a numeric value between 1 and 3 representing the
+#' @param final.pick  a numeric value between 1 and 3 representing the
 #' contestant's final door choice
+#' @param game  a vector of length three representing the game structure - see
+#' create_game()
 #' @return character object "WIN" or "LOSE"
 #' @examples
 #' determine_winner(final.pick = 1, game = c("goat", "car", "goat")
@@ -222,7 +224,7 @@ play_game <- function( )
 #' or stay, and the final game result. The results are simulated a user-defined
 #' n-times and stored in a results data frame. The function returns a
 #' proportion table to make the results more easily legible.
-#' @param n = numeric value indicating the number of Monte Hall simulations
+#' @param n  numeric value indicating the number of Monte Hall simulations
 #' to run. The default value of n is 100.
 #' @return A proportion table indicating the outcomes of both switch and stay
 #' strategies over n simulations
