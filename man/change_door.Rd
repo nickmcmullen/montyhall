@@ -32,8 +32,8 @@ their selection, the function will return the numeric value associated
 with the original selection
 }
 \examples{
-change_door(stay=T, opened.door = 1, a.pick = 2)
-[1] 2
-change_door(stay = F, opened.door = 1, a.pick = 2)
-[1] 3
+change_door(stay=T, opened.door = 1, a.pick = 2) #should deliver output 2
+change_door(stay = F, opened.door = 1, a.pick = 2) #should deliver output 3
+change_door(stay = T, opened.door = 2, a.pick = 1) #should deliver output 1
+change_door(stay = F, opened.door = 2, a.pick = 1) #should deliver output 3
 }
