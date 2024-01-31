@@ -25,7 +25,7 @@ If the contestant's final selection is the door number with the car behind
 it, the function will return "WIN", if not the function will return "LOSE"
 }
 \examples{
-determine_winner(final.pick = 1, game = c("goat", "car", "goat")
-determine_winner(final.pick = 2, game = c("goat", "car", "goat")
-determine_winner(final.pick = 3, game = c("goat", "car", "goat")
+determine_winner(final.pick = 1, game = c("goat", "car", "goat"))
+determine_winner(final.pick = 2, game = c("goat", "car", "goat"))
+determine_winner(final.pick = 3, game = c("goat", "car", "goat"))
 }

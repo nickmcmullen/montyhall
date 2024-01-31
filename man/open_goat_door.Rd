@@ -10,7 +10,7 @@ open_goat_door(game, a.pick)
 \item{game}{a vector of length three representing the game structure - see
 create_game()}
 
-\item{a.select}{a numeric value between 1 and 3 representing the contestant's
+\item{a.pick}{a numeric value between 1 and 3 representing the contestant's
 initial door selection - see select_door()}
 }
 \value{
