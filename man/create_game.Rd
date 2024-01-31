@@ -30,7 +30,8 @@ given the option to switch, so this simulation was created
 to test both strategies.
 }
 \examples{
+  
   create_game()
-  [1] ["goat", "goat", "car"]
+  
 
 }
