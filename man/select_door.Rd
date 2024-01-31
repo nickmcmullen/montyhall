@@ -22,6 +22,7 @@ presented as a choice, stay or switch and win the prize behind the final
 door selected
 }
 \examples{
+
 select_door()
-[1] 2
+
 }
