@@ -68,7 +68,7 @@ select_door <- function( )
 #' door, the function will return the only remaining goat door number.
 #' @param game  a vector of length three representing the game structure - see
 #' create_game()
-#' @param a.select  a numeric value between 1 and 3 representing the contestant's
+#' @param a.pick  a numeric value between 1 and 3 representing the contestant's
 #' initial door selection - see select_door()
 #' @return Generates a numeric value between 1 and 3
 #' @examples
@@ -149,9 +149,9 @@ change_door <- function( stay=T, opened.door, a.pick )
 #' create_game()
 #' @return character object "WIN" or "LOSE"
 #' @examples
-#' determine_winner(final.pick = 1, game = c("goat", "car", "goat")
-#' determine_winner(final.pick = 2, game = c("goat", "car", "goat")
-#' determine_winner(final.pick = 3, game = c("goat", "car", "goat")
+#' determine_winner(final.pick = 1, game = c("goat", "car", "goat"))
+#' determine_winner(final.pick = 2, game = c("goat", "car", "goat"))
+#' determine_winner(final.pick = 3, game = c("goat", "car", "goat"))
 #' @export
 determine_winner <- function( final.pick, game )
 {
