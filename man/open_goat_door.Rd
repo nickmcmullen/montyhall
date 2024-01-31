@@ -7,10 +7,10 @@
 open_goat_door(game, a.pick)
 }
 \arguments{
-\item{game}{ a vector of length three representing the game structure - see
+\item{game}{= a vector of length three representing the game structure - see
 create_game()}
 
-\item{a.select}{ a numeric value between 1 and 3 representing the contestant's
+\item{a.select}{= a numeric value between 1 and 3 representing the contestant's
 initial door selection - see select_door()}
 }
 \value{
@@ -26,9 +26,6 @@ the two goat door numbers at random. If the contestant has selected a goat
 door, the function will return the only remaining goat door number.
 }
 \examples{
-
 open_goat_door(game = ["goat", "car", "goat"], a.pick = 1)
 open_goat_door(game = ["goat", "car", "goat"], a.pick = 2)
-open_goat_door(game = ["goat", "car", "goat"], a.pick = 3)
-
 }
