@@ -8,13 +8,13 @@ original selection}
 change_door(stay = T, opened.door, a.pick)
 }
 \arguments{
-\item{stay}{= T/F logical, indicates whether the contestant will keep their
+\item{stay}{T/F logical, indicates whether the contestant will keep their
 original selection}
 
-\item{opened.door}{= numeric value between 1 and 3 representing the door opened
+\item{opened.door}{numeric value between 1 and 3 representing the door opened
 by the host (see select_door())}
 
-\item{a.pick}{= numeric value between 1 and 3 representing the door originally
+\item{a.pick}{numeric value between 1 and 3 representing the door originally
 selected by the contestant (see open_goat_door())}
 }
 \value{

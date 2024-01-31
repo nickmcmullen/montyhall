@@ -7,8 +7,11 @@
 determine_winner(final.pick, game)
 }
 \arguments{
-\item{final.pick}{= a numeric value between 1 and 3 representing the
+\item{final.pick}{a numeric value between 1 and 3 representing the
 contestant's final door choice}
+
+\item{game}{a vector of length three representing the game structure - see
+create_game()}
 }
 \value{
 character object "WIN" or "LOSE"

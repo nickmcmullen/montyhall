@@ -8,7 +8,7 @@ Monte Hall games}
 play_n_games(n = 100)
 }
 \arguments{
-\item{n}{= numeric value indicating the number of Monte Hall simulations
+\item{n}{numeric value indicating the number of Monte Hall simulations
 to run. The default value of n is 100.}
 }
 \value{
