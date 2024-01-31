@@ -2,7 +2,7 @@
 % Please edit documentation in R/monty-hall-problem.R
 \name{select_door}
 \alias{select_door}
-\title{Select a door at random in a Monte Hall game}
+\title{Select a door at random in a Monty Hall game}
 \usage{
 select_door()
 }

@@ -3,12 +3,12 @@
 \name{play_n_games}
 \alias{play_n_games}
 \title{A wrapper function that allows a user to simulate a specified number of
-Monte Hall games}
+Monty Hall games}
 \usage{
 play_n_games(n = 100)
 }
 \arguments{
-\item{n}{numeric value indicating the number of Monte Hall simulations
+\item{n}{numeric value indicating the number of Monty Hall simulations
 to run. The default value of n is 100.}
 }
 \value{
@@ -16,11 +16,11 @@ A proportion table indicating the outcomes of both switch and stay
 strategies over n simulations
 }
 \description{
-This function will simulate a user-defined number (n) of Monte Hall games
+This function will simulate a user-defined number (n) of Monty Hall games
 and store the aggregated results in a data table.
 }
 \details{
-Simulates all steps of the Monte Hall game from the game setup
+Simulates all steps of the Monty Hall game from the game setup
 (assigning objects behind doors), initial contestant door selection, the
 host opening a goat door, the contestant strategy of switch door selection
 or stay, and the final game result. The results are simulated a user-defined

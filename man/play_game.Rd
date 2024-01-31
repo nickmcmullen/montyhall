@@ -2,7 +2,7 @@
 % Please edit documentation in R/monty-hall-problem.R
 \name{play_game}
 \alias{play_game}
-\title{A wrapper function that allows a user to simulate a full Monte Hall game}
+\title{A wrapper function that allows a user to simulate a full Monty Hall game}
 \usage{
 play_game()
 }
@@ -14,7 +14,7 @@ A data.frame object containing stay/switch strategy and final game
 outcome
 }
 \description{
-Call play_game() to simulate a monte hall game outcome and output the final
+Call play_game() to simulate a monty hall game outcome and output the final
 result in the form of a data frame containing the strategy used by the
 contestant and the final game outcome if that strategy was used
 }
