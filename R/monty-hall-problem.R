@@ -36,7 +36,7 @@ create_game <- function()
 
 
 #' @title
-#'  Select a door at random in a Monte Hall game
+#'  Select a door at random in a Monty Hall game
 #' @description
 #'  Randomly generates a number between 1 and 3, representing the door number
 #'  selected by the contestant
@@ -170,9 +170,9 @@ determine_winner <- function( final.pick, game )
 
 
 #' @title
-#' A wrapper function that allows a user to simulate a full Monte Hall game
+#' A wrapper function that allows a user to simulate a full Monty Hall game
 #' @description
-#' Call play_game() to simulate a monte hall game outcome and output the final
+#' Call play_game() to simulate a monty hall game outcome and output the final
 #' result in the form of a data frame containing the strategy used by the
 #' contestant and the final game outcome if that strategy was used
 #' @details
@@ -213,18 +213,18 @@ play_game <- function( )
 
 #' @title
 #' A wrapper function that allows a user to simulate a specified number of
-#' Monte Hall games
+#' Monty Hall games
 #' @description
-#' This function will simulate a user-defined number (n) of Monte Hall games
+#' This function will simulate a user-defined number (n) of Monty Hall games
 #' and store the aggregated results in a data table.
 #' @details
-#' Simulates all steps of the Monte Hall game from the game setup
+#' Simulates all steps of the Monty Hall game from the game setup
 #' (assigning objects behind doors), initial contestant door selection, the
 #' host opening a goat door, the contestant strategy of switch door selection
 #' or stay, and the final game result. The results are simulated a user-defined
 #' n-times and stored in a results data frame. The function returns a
 #' proportion table to make the results more easily legible.
-#' @param n  numeric value indicating the number of Monte Hall simulations
+#' @param n  numeric value indicating the number of Monty Hall simulations
 #' to run. The default value of n is 100.
 #' @return A proportion table indicating the outcomes of both switch and stay
 #' strategies over n simulations
